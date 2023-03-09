@@ -263,11 +263,11 @@ color: #ffffff;
 }
 
 .footer .box-container .box .share a{
-    height:4rem;
-    width:4rem;
-    line-height:4rem;
+     height:3rem;
+    width:3rem;
+    line-height:3rem;
     border-radius: .5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:var(--black);
     margin-right: .2rem;
     background: #eee;
