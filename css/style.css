@@ -167,9 +167,6 @@ color: #ffffff;
     margin-left: 564px;
 }
 
-/* .col-md-1{
-    padding-bottom: 25px;
-} */
 .project{
     font-weight: 700;
     font-size: 1.8rem;
@@ -177,7 +174,6 @@ color: #ffffff;
     text-align: center;
     margin-top: 1200px;
 }
-
  .feature .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem,1.2fr));
@@ -232,7 +228,7 @@ color: #ffffff;
 }
 
 .footer .box-container .box h3{
-    font-size: 1.8rem;
+    font-size: 23px;
     color:var(--black);
     padding:1rem 0;
 }
@@ -243,7 +239,7 @@ color: #ffffff;
 
 .footer .box-container .box .links{
     display: block;
-    font-size: 1.5rem;
+    font-size: 20px;
     color:var(--light-color);
     padding:1rem 0;
 }
@@ -285,12 +281,9 @@ color: #ffffff;
 
 .footer .box-container .box .email{
     width: 80%;
-    
     padding:1rem;
     border-radius: .5rem;
-
-    font-size: 1.2rem;
-    
+    font-size: 0.8rem;
     text-transform: none;
 }
 
@@ -299,3 +292,20 @@ color: #ffffff;
     height: 2.5rem;
     display: block;
 }
+.butns{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    margin-left: 56px;
+    font-size: 13px;
+    border-radius: 0.8rem ;
+    border: .2rem solid rgb(20, 26, 27);
+    padding:.8rem 3rem;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+.butns:hover{
+      background: #202936;
+      color: #ffffff;
+  }
